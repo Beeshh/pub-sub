@@ -1,0 +1,28 @@
+{
+    "unicast": "100.88.162.130",
+    "logging": {
+        "level": "debug",
+        "console": "true"
+    },
+    "applications": [
+        {
+            "name": "window_ecu_service",
+            "id": "0x4444"
+        },
+        {
+            "name": "climate_ecu_client",
+            "id": "0x5555"
+        }
+    ],
+    "services": [
+        {
+            "service": "0x1111",
+            "instance": "0x2222",
+            "unreliable": "30509"
+        }
+    ],
+    "routing": "window_ecu_service",
+    "service-discovery": {
+        "enable": "false"
+    }
+}
