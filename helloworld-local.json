@@ -1,5 +1,5 @@
 {
-    "unicast": "100.88.162.130",
+    "unicast": "192.168.1.10",
     "logging": {
         "level": "debug",
         "console": "true"
@@ -23,6 +23,9 @@
     ],
     "routing": "window_ecu_service",
     "service-discovery": {
-        "enable": "false"
+        "enable": "true",
+        "multicast": "224.224.224.245",
+        "port": "30490",
+        "protocol": "udp"
     }
 }
